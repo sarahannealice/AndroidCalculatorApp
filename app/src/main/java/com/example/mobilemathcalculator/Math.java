@@ -52,7 +52,7 @@ public class Math {
         tempX = leftNum - rightNum;
 
         if (rightNum == 0) {
-            return "NAN";//impossible calculation
+            return "NaN";//impossible calculation
         } else if (tempX > MAXLIMIT) {
             return "MAX LIMIT";
         } else if (tempX < MINLIMIT) {
